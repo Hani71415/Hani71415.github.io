@@ -28,7 +28,7 @@ export default function AboutSection() {
           <Card className="p-8">
             <h3 className="text-2xl font-semibold mb-4" data-testid="text-introduction-title">自我介紹</h3>
             <p className="text-muted-foreground leading-relaxed mb-4" data-testid="text-introduction-content">
-              我是一名充滿熱情的學生開發者，目前專注於全端網頁開發與使用者體驗設計。
+              我叫仙草，是一名充滿熱情的學生開發者，目前專注於全端網頁開發與使用者體驗設計。
               喜歡透過科技解決實際問題，並且相信優秀的設計能夠改變世界。
             </p>
             <p className="text-muted-foreground leading-relaxed" data-testid="text-introduction-content-2">
