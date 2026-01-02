@@ -1,0 +1,34 @@
+id: "3"
+title: "校園活動平台"
+description: "整合活動發布、報名管理和即時通知的校園活動平台，提升學生參與度和資訊流通效率。"
+technologies: ["Vue.js", "Express", "PostgreSQL"]
+imageUrl: "/attached_assets/generated_images/Portfolio_project_screenshot_1_aa5c9f69.png"
+demoUrl: "#"
+codeUrl: "#"
+content: |
+  # 校園活動平台
+
+  整合活動發布、報名管理和即時通知的校園活動平台，提升學生參與度和資訊流通效率。
+
+  ## 專案背景
+
+  這個專案是為了改善校園活動資訊流通的問題而開發的。
+
+  ## 核心功能
+
+  - **活動發布**: 管理員可以發布活動資訊
+  - **報名管理**: 學生可以在線報名活動
+  - **即時通知**: 活動變更時自動通知參與者
+  - **數據統計**: 活動參與情況分析
+
+  ## 技術架構
+
+  - **前端**: Vue.js 3 + Composition API
+  - **後端**: Express.js
+  - **資料庫**: PostgreSQL
+  - **認證**: JWT
+
+  ## 專案成果
+
+  這個平台成功提升了校園活動的參與度，讓資訊流通更加順暢。
+

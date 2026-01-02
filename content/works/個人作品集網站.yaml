@@ -1,0 +1,31 @@
+id: "2"
+title: "個人作品集網站"
+description: "使用 Next.js 和 Tailwind CSS 打造的響應式作品集網站，具有深色模式和流暢動畫效果。"
+technologies: ["Next.js", "Tailwind CSS", "Framer Motion"]
+imageUrl: "/attached_assets/generated_images/Portfolio_project_screenshot_2_7cb50fd4.png"
+demoUrl: "#"
+codeUrl: "#"
+content: |
+  # 個人作品集網站
+
+  使用 **Next.js** 和 **Tailwind CSS** 打造的響應式作品集網站，具有深色模式和流暢動畫效果。
+
+  ## 專案特色
+
+  - **響應式設計**: 完美適配各種裝置
+  - **深色模式**: 支援自動切換主題
+  - **流暢動畫**: 使用 Framer Motion 實現
+  - **SEO 優化**: Next.js 的 SSR 功能
+
+  ## 技術實現
+
+  這個專案使用了 Next.js 的許多進階功能：
+  - Server-Side Rendering (SSR)
+  - Static Site Generation (SSG)
+  - Image Optimization
+  - API Routes
+
+  ## 設計理念
+
+  簡潔、現代、易用的設計風格，讓訪客能夠快速了解我的作品和技能。
+

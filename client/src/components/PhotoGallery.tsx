@@ -1,21 +1,13 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
-import workspacePhoto from "@assets/generated_images/Workspace_photo_for_gallery_7fc56b8e.png";
-import campusPhoto from "@assets/generated_images/Campus_life_photo_ade94f0b.png";
+import { photos } from "@/data/content";
 
 export default function PhotoGallery() {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
   const categories = ["全部", "校園", "工作", "生活"];
   const categoryIds = ["all", "campus", "workspace", "life"];
-
-  const photos = [
-    { id: 1, src: workspacePhoto, title: "我的工作空間", category: "workspace", date: "2024-01" },
-    { id: 2, src: campusPhoto, title: "校園時光", category: "campus", date: "2024-02" },
-    { id: 3, src: workspacePhoto, title: "程式學習", category: "workspace", date: "2024-03" },
-    { id: 4, src: campusPhoto, title: "團隊合作", category: "campus", date: "2024-03" },
-  ];
 
   const filteredPhotos = selectedCategory === "all" 
     ? photos 
@@ -53,7 +45,7 @@ export default function PhotoGallery() {
             >
               <div className="aspect-square relative overflow-hidden">
                 <img
-                  src={photo.src}
+                  src={photo.url}
                   alt={photo.title}
                   className="w-full h-full object-cover transition-transform group-hover:scale-110"
                   data-testid={`img-photo-${photo.id}`}

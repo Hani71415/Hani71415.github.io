@@ -1,0 +1,43 @@
+id: "3"
+title: "Tailwind CSS 使用心得"
+date: "2024-10-28"
+readTime: "4 分鐘"
+tags: ["CSS", "設計", "工具"]
+excerpt: "最近開始使用 Tailwind CSS，utility-first 的開發方式讓我的開發速度提升了不少。特別是 dark mode 的支援非常方便..."
+content: |
+  # Tailwind CSS 使用心得
+
+  最近開始使用 Tailwind CSS，utility-first 的開發方式讓我的開發速度提升了不少。特別是 dark mode 的支援非常方便。
+
+  ## 為什麼選擇 Tailwind
+
+  之前使用傳統的 CSS 寫法，每次都要：
+  - 寫很多自定義的 CSS 類別
+  - 在 HTML 和 CSS 之間來回切換
+  - 擔心類別名稱衝突
+
+  Tailwind 的 utility-first 方式完全改變了我的開發流程。
+
+  ## 主要優點
+
+  ### 1. 開發速度快
+  不需要離開 HTML 就能完成大部分樣式設計。
+
+  ### 2. 響應式設計簡單
+  ```html
+  <div class="text-sm md:text-base lg:text-lg">
+    響應式文字
+  </div>
+  ```
+
+  ### 3. Dark Mode 支援
+  只需要加上 `dark:` 前綴就能輕鬆實現深色模式。
+
+  ## 學習曲線
+
+  一開始需要記住很多類別名稱，但使用一段時間後就習慣了。而且有很好的 IDE 支援，自動補全功能很強大。
+
+  ## 總結
+
+  Tailwind CSS 已經成為我開發的首選工具，推薦給所有前端開發者！
+

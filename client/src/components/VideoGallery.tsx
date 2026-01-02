@@ -1,33 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { Play } from "lucide-react";
 import { useState } from "react";
+import { videos } from "@/data/content";
 
 export default function VideoGallery() {
   const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
-
-  const videos = [
-    {
-      id: 1,
-      title: "我的程式學習旅程",
-      thumbnail: "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
-      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      duration: "5:42",
-    },
-    {
-      id: 2,
-      title: "專案開發過程記錄",
-      thumbnail: "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
-      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      duration: "8:15",
-    },
-    {
-      id: 3,
-      title: "校園生活 Vlog",
-      thumbnail: "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
-      url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      duration: "6:30",
-    },
-  ];
 
   return (
     <section id="videos" className="py-24 px-4 bg-card/30">

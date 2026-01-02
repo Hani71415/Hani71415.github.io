@@ -1,0 +1,37 @@
+id: "1"
+title: "智慧任務管理系統"
+description: "一個基於 React 和 Node.js 開發的任務管理應用，支援即時協作、智慧提醒和數據分析功能。"
+technologies: ["React", "Node.js", "MongoDB", "Socket.io"]
+imageUrl: "/attached_assets/generated_images/Portfolio_project_screenshot_1_aa5c9f69.png"
+demoUrl: "#"
+codeUrl: "#"
+content: |
+  # 智慧任務管理系統
+
+  一個基於 **React** 和 **Node.js** 開發的任務管理應用，支援即時協作、智慧提醒和數據分析功能。
+
+  ## 專案概述
+
+  這個專案是我在學習全端開發時的重要作品，整合了前端和後端的技術。
+
+  ## 主要功能
+
+  - **任務管理**: 建立、編輯、刪除任務
+  - **即時協作**: 使用 Socket.io 實現即時更新
+  - **智慧提醒**: 自動提醒即將到期的任務
+  - **數據分析**: 視覺化任務完成情況
+
+  ## 技術棧
+
+  - **前端**: React, Tailwind CSS
+  - **後端**: Node.js, Express
+  - **資料庫**: MongoDB
+  - **即時通訊**: Socket.io
+
+  ## 開發心得
+
+  這個專案讓我學會了：
+  - 前後端分離的架構設計
+  - WebSocket 的實際應用
+  - 資料庫設計和查詢優化
+
